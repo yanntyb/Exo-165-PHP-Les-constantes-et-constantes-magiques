@@ -9,9 +9,20 @@
  *    longueur de la chaîne de la troisième constante ( attention aux priorités )
  */
 // TODO Votre code ici.
+const NUMB = 12;
+const NUMB2 = 2;
 
+echo NUMB * NUMB2;
+
+const CHAINE = "C'est cool le PHP";
+
+echo (NUMB + NUMB2) * (strlen(CHAINE));
 
 /**
  * 6. Utilisez la bonne constante magique et éventuellement la bonne fonction pour afficher un maximum d'informations sur la page actuelle4
  */
 // TODO Votre code ici.
+
+$session = phpinfo();
+
+echo $session;
